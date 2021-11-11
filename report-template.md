@@ -38,11 +38,13 @@ I'd also like to try some more hyperparameters' values trying to decrease RMSE.
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
+TODO: Replace the image below with your own.
 
 ![model_train_score.png](img/model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
+TODO: Replace the image below with your own.
 
 ![model_test_score.png](img/model_test_score.png)
 
@@ -52,7 +54,7 @@ Firstly, I analyzed the features, using mainly pandas methods. After that, I've 
 
 The second step of this study was to analyze data pattern in features. That was done using hystogram graphics. Based on this visual inspection, I decided to add new features, extracting three new features from "datetype" column and to change dtype from numeric to categorical. Then I trained a new model that has shown an improved of RMSE Kaggle score on test data.
 
-Lastly, I decided to use a specific hyperparameter for model algorithm: GBM (tree based model) with different hyperparameter setting. After the training,  the model show a slight increase in RMSE score from 1.33528 to 1.22447.
+Lastly, I decided to use a specific hyperparameter for model algorithm: GBM (tree based model) with different hyperparameter settings. After the training,  the model show a slight increase in RMSE score from 1.33528 to 1.22447.
 
 In the end, I compared the Kaggle score of all model and plotted these scores against hyperparameter settings to analyze the relative improvement or degradation in performance.
 
